@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">BSB Tour Guide</string>
+    <string name="title">title</string>
+    <string name="location">location</string>
+    <string name="opens">open</string>
+    <string name="closes">close</string>
+    <string name="catedral">Catedral Metropolitana Nossa Senhora Aparecida</string>
+    <string name="palacio_planalto">Palácio do Planalto</string>
+    <string name="stf">Supremo Tribunal Federal</string>
+    <string name="congresso">Congresso Nacional</string>
+    <string name="type">type</string>
+    <string name="congresso_location">Palácio do Congresso Nacional - Praça dos 3 Poderes, Praça dos Três Poderes - Brasília, DF, 70160-900</string>
+    <string name="stf_location">Praça dos Três Poderes - Brasília, DF, 70175-900</string>
+    <string name="palacio_location">Praça dos Três Poderes - Brasília, DF, 70150-900</string>
+    <string name="catedral_location">Esplanada dos Ministérios lote 12 - Brasília, DF, 70050-000</string>
+</resources>

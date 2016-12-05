@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tech.linard.android.bsbtourguide.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_shopping"
+        android:text="Shoppings"
+        android:textAllCaps="true"
+        style="@style/MainButton"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/background_light"
+        tools:background="@android:color/holo_blue_dark" />
+    <Button
+        android:id="@+id/btn_food"
+        android:text="Food"
+        style="@style/MainButton"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_orange_dark" />
+    <Button
+        android:id="@+id/btn_park"
+        android:text="Park"
+        style="@style/MainButton"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_green_dark" />
+    <Button
+        android:id="@+id/btn_civic"
+        android:text="Civic"
+        style="@style/MainButton"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="@android:color/background_light"
+        android:background="@android:color/holo_red_dark" />
+</LinearLayout>
