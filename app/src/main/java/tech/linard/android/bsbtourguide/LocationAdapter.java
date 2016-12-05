@@ -50,7 +50,15 @@ public class LocationAdapter extends ArrayAdapter<Location> {
                 icon.setImageResource(R.drawable.ic_tree_black_24dp);
                 break;
             case 4:
-                icon.setImageResource(R.drawable.ic_city_black_24dp);
+              if (title.equalsIgnoreCase(getString(R.string.catedral))) {
+	            icon.setImageResource(R.drawable.catedral);
+	        } else if  (title.equalsIgnoreCase(getString(R.string.congresso))) {
+	            icon.setImageResource(R.drawable.congresso);
+	        } else if (title.equalsIgnoreCase(getString(R.string.stf))) {
+	            icon.setImageResource(R.drawable.stf);
+	        } else if (title.equalsIgnoreCase(getString(R.string.palacio_planalto))) {
+	            icon.setImageResource(R.drawable.planalto);
+	        }  
                 break;
         }
         return listItemView;
