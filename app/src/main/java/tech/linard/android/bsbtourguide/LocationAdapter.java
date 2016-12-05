@@ -50,15 +50,15 @@ public class LocationAdapter extends ArrayAdapter<Location> {
                 icon.setImageResource(R.drawable.ic_tree_black_24dp);
                 break;
             case 4:
-              if (title.equalsIgnoreCase(getString(R.string.catedral))) {
-	            icon.setImageResource(R.drawable.catedral);
-	        } else if  (title.equalsIgnoreCase(getString(R.string.congresso))) {
-	            icon.setImageResource(R.drawable.congresso);
-	        } else if (title.equalsIgnoreCase(getString(R.string.stf))) {
-	            icon.setImageResource(R.drawable.stf);
-	        } else if (title.equalsIgnoreCase(getString(R.string.palacio_planalto))) {
-	            icon.setImageResource(R.drawable.planalto);
-	        }  
+                if (currentLocation.getTitle().equalsIgnoreCase("Catedral Metropolitana Nossa Senhora Aparecida")) {
+                    icon.setImageResource(R.drawable.catedral);
+                } else if  (currentLocation.getTitle().equalsIgnoreCase("Congresso Nacional")) {
+                    icon.setImageResource(R.drawable.congresso);
+                } else if (currentLocation.getTitle().equalsIgnoreCase("Supremo Tribunal Federal")) {
+                    icon.setImageResource(R.drawable.stf);
+                } else if (currentLocation.getTitle().equalsIgnoreCase("Palácio do Planalto")) {
+                    icon.setImageResource(R.drawable.planalto);
+                }
                 break;
         }
         return listItemView;
